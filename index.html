@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasmita Mishra | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="bg-circle" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+        <div class="bg-circle" style="top: 60%; left: 80%; animation-delay: 2s;"></div>
+        <div class="bg-circle" style="top: 30%; left: 50%; animation-delay: 4s;"></div>
+        <div class="bg-square" style="top: 20%; left: 70%; animation-delay: 1s;"></div>
+        <div class="bg-square" style="top: 70%; left: 20%; animation-delay: 3s;"></div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">My Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-text">Hi, I'm <span class="highlight">Sasmita Mishra</span></h1>
+                <h2 class="typing-text">Web Developer</h2>
+                <p>I build exceptional digital experiences</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="proto1.jpg" alt="Sasmita Mishra">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="protopic.jpg" alt="About Sasmita">
+                </div>
+                <div class="about-text">
+                    <p>Welcome to my profile! I'm passionate about coding, problem-solving, AWS and building cool stuff. Currently diving deep into the world of full-stack development, exploring both frontend and backend technologies.</p>
+                    <p>I believe in "Build. Connect. Innovate." 🤝💻 When I'm not deep in debug mode, I'm probably lost in a tech tutorial rabbit hole or daydreaming through travel vlogs. 😆 I bring a calm and patient approach to everything I do.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/Sasmita-Mishra28/Sasmita-Mishra28" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="skill-info">
+                        <i class="fab fa-html5" style="color: #e34f26;"></i>
+                        <div class="skill-name">Full stack development</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="95"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <i class="fab fa-css3-alt" style="color: #1572b6;"></i>
+                        <div class="skill-name">AWS Cloud</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="90"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <i class="fab fa-js" style="color: #f7df1e;"></i>
+                        <div class="skill-name">Java</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="85"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <i class="fab fa-react" style="color: #61dafb;"></i>
+                        <div class="skill-name">Communication</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="80"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 1">
+                        <div class="project-overlay">
+                            <h3>Student Mentoring System</h3>
+                            <p>Full-featured student mentoring system</p>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://std-mentoring-edu.netlify.app/" class="btn">Live Demo</a>
+                        <a href="#" class="btn">Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 2">
+                        <div class="project-overlay">
+                            <h3>Sign language Iterpreter</h3>
+                            <p>Uses real-time webcam input and MediaPipe Hands to detect hand landmarks.</p>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn">Live Demo</a>
+                        <a href="#" class="btn">Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 3">
+                        <div class="project-overlay">
+                            <h3>Internship Portal</h3>
+                            <p>Full Stack Internship Portal that streamlines the internship application process</p>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn">Live Demo</a>
+                        <a href="#" class="btn">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> mishrasasmita928@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 9040039956</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bhubaneswar, India</p>
+                    <div class="contact-social">
+                        <a href="https://github.com/Sasmita-Mishra28/Sasmita-Mishra28"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sasmita-mishra-b505a225b/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/mis46157?t=RMY5_wnYemW1ErA_daOZsQ&s=09"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Sasmita Mishra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
